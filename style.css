@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+img {
+margin-left: 32%;
+
+}
+
+.lampu {
+text-align: center;
+margin: 10px;
+
+}
+.nyala  {
+    background: linear-gradient(45deg, #ff6a00, #ee0979); /* Warna gradient */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow ringan */
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+.mati  {
+    background: linear-gradient(45deg, #ff6a00, #ee0979); /* Warna gradient */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow ringan */
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    
+}
+
+.nyala:hover {
+    background: linear-gradient(45deg, #ff6a00, #ee0979); /* Gradient tetap, bisa disesuaikan */
+    box-shadow: 0 0 20px #ff6a00, 0 0 30px #ff6a00, 0 0 40px #ee0979; /* Glow intens saat hover */
+    transform: scale(1.1); /* Efek zoom sedikit */
+}
+
+.mati:hover {
+    background: linear-gradient(45deg, #ff6a00, #ee0979); /* Gradient tetap, bisa disesuaikan */
+    box-shadow: 0 0 20px #ff6a00, 0 0 30px #ff6a00, 0 0 40px #ee0979; /* Glow intens saat hover */
+    transform: scale(1.1); /* Efek zoom sedikit */
